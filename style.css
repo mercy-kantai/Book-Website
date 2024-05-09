@@ -1,0 +1,490 @@
+
+#book-web{
+    background-color: white;
+    /* padding: 40px; */
+    margin-left: 3%;
+    margin-right: 3%;
+    
+}
+#header{
+    justify-content: space-between;
+    display: flex;
+}
+nav a{
+    text-decoration: none;
+    color: #000;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 50px;
+}
+#header-buttons{
+    gap: 60px;
+}
+.login-button{
+    border: none;
+}
+.start-button{
+    border: 1px solid;
+    border-radius: 25px;
+    width: 60%;
+    height: 5vh;
+    background-color:  rgb(120,185,180);
+    color: white;
+}
+#input_button{
+    position: relative;
+    display: inline-block;
+}
+/* .student{
+border-radius: 50%;
+} */
+.student{
+    width: 80%;
+    border-radius: 70%;
+    object-fit: contain;
+    background-color: rgb(241,197,136);
+}
+#page-one{
+    display: flex;
+    gap: 15px;
+    
+}
+h2{
+    font-size: 350%;
+    color: rgb(7, 11,47);
+}
+#footer-heading{
+    text-align: center;
+
+}
+.footer-image{
+    width: 10%;
+    height: 5vh;
+}
+#footer{
+    background-color: rgb(227, 240, 239);
+    padding: 40px;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#footer-images{
+    display: flex;
+    gap: 10%;
+}
+/* .facebook{
+    width: 30%;
+    height: 3vh;
+}
+.instagram{
+    width: 30%;
+    height: 3vh;
+}
+.twitter{
+    width: 30%;
+    height: 3vh;
+}
+.pintrest{
+    width: 30%;
+    height: 3vh;
+} */
+.toggle{
+    position: relative;
+    display: inline-block;
+    width: 170px;
+}
+.toggle input{
+    border: 1px solid;
+    border-radius: 30px;
+    padding-right: 10px;
+    width: 450%;
+    min-height: 8vh;
+    border:  solid 1px;
+}
+.toggle button{
+    position: absolute;
+    margin-left: 650px;
+    top: 25%;
+    width: 60%;
+    border: none;
+    background-color: rgb(120,185,180);
+    border-radius: 20px;
+    min-height: 5vh;
+    color: white;
+}
+p{
+    font-size: 150%;
+}
+#social-media{
+    display: flex;
+    gap: 0px;
+}
+
+@media (max-width:280px){
+   
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 100%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 60%;
+    }
+    .toggle input{
+        width: 100%;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 120px;
+        top: 25%;
+        width: 30%;
+       
+    }
+    h1{
+        font-size: 80%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+   #footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+.footer-image{
+    width: 30%;
+    height: 3vh;
+    object-fit: cover;
+}
+
+  
+}
+
+@media (min-width:360px)  and  (max-width: 480px){
+ 
+    #header{
+        display: flex;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 100%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 60%;
+    }
+    .toggle input{
+        width: 130%;
+        min-height: 7vh;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 150px;
+        top: 25%;
+        width: 35%;
+    }
+    #header-buttons{
+        gap: 60px;
+    }
+    h1{
+        font-size: 100%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+   .student{
+    width: 80%;
+ 
+}
+#footer-images{
+    display: flex;
+    flex-direction: column;
+    gap: 20%;
+}
+.footer-image{
+    width: 30%;
+    height: 3vh;
+    object-fit: cover;
+}
+}
+@media (min-width:481px) and (max-width:564px){
+ 
+    #header{
+        justify-content: space-between;
+        display: flex;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 100%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 60%;
+    }
+    .toggle input{
+        width: 130%;
+        min-height: 7vh;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 150px;
+        top: 25%;
+        width: 35%;
+        
+       
+    }
+    h1{
+        font-size: 50%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+}
+@media (min-width: 565px) and (max-width: 764px){
+    #header{
+        justify-content: space-between;
+        display: flex;
+    }
+    #header{
+        display: flex;
+        flex-direction: column;
+    }
+    nav ul{
+        gap: 1px;
+        display: flex;
+        flex-direction: column;
+    }
+    h2{
+        font-size: 100%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 60%;
+    }
+    .toggle input{
+        width: 130%;
+        min-height: 7vh;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 150px;
+        top: 25%;
+        width: 35%;
+        
+       
+    }
+    h1{
+        font-size: 50%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+}
+@media (min-width:765px) and  (max-width:1024px){
+
+    #header{
+        justify-content: space-between;
+        display: flex;
+    }
+    #header{
+        display: flex;
+       
+    }
+    nav ul{
+        gap: 5px;
+        display: flex;
+        
+    }
+    h2{
+        font-size: 150%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 110%;
+    }
+    .toggle input{
+        width: 220%;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 300px;
+        top: 25%;
+        width: 40%;
+       
+    }
+    h1{
+        font-size: 100%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+   /* #footer-images{
+    display: flex;
+
+}
+.footer-image{
+    width: 10%;
+    height: 3vh;
+    object-fit: cover;
+} */
+    
+#header-buttons{
+    gap: 10%;
+}
+
+
+}
+@media (min-width:1025px) and (max-width:1280px){
+    #header{
+        justify-content: space-between;
+        display: flex;
+    }
+    #header{
+        display: flex;
+       
+    }
+    nav ul{
+        gap: 5px;
+        display: flex;
+        
+    }
+    h2{
+        font-size: 150%;
+        color: rgb(7, 11,47);
+    }
+    p{
+        font-size: 110%;
+    }
+    .toggle input{
+        width: 220%;
+    }
+    .toggle button{
+        position: absolute;
+        margin-left: 300px;
+        top: 25%;
+        width: 40%;
+       
+    }
+    h1{
+        font-size: 100%;
+    }
+    #social-media{
+        display: flex;
+        gap: 0px;
+
+    }
+   .facebook{
+    width: 15%;
+   }
+   .instagram{
+    width: 20%;
+   }
+   .pintrest{
+    width: 20%;
+   }
+   .twitter{
+    width: 20%;
+   }
+   .student{
+    width: 80%;
+ 
+}
+    
+
+}
